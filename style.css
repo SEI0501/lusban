@@ -132,12 +132,12 @@ SP
 -------------------------------------------*/
 @media screen and (max-width: 600px) {
 
-	#mainvisual img {
-    /* 以前の display: none; などがあれば、これで上書きされます */
-    display: block !important; /* 強制的に表示 */
-    height: calc(100vh - 60px) !important; /* スマホ画像の高さを指定（以前の設定を活かす） */
-    object-fit: cover !important; /* スマホ画像も枠に合わせてトリミングする設定 */
-    width: 100% !important; /* 余計な幅指定をリセット */
+  /*-------------------------------------------
+  Mainvisual
+  -------------------------------------------*/
+  #mainvisual img {
+    height:calc(100vh - 60px);
+	object-fit: contain;
   }
 	
   /*-------------------------------------------
