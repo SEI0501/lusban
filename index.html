@@ -24,11 +24,12 @@
 
 <main>
 <div id="mainvisual">
+  <div id="mainvisual">
   <picture>
-    <!-- 1. スマホ用の画像設定（これが一番上であること） -->
+    <!-- 「(max-width: 600px)」のカッコ()、スペル、数値を完璧に一致させる -->
     <source media="(max-width: 600px)" srcset="lusban.firstview.phone.png">
     
-    <!-- 2. PC用の画像設定（<img>タグ） -->
+    <!-- ここはPC用のまま -->
     <img src="lusban.firstview.png" alt="LUSBANメインビュー">
   </picture>
 </div>
